@@ -1,0 +1,4 @@
+// actualizar direcciones de una tabla a otra
+UPDATE proveedores c
+JOIN tbupdate tb ON c.codigo = tb.CODIGO
+SET c.direccion = tb.DIRECCION
